@@ -1,1 +1,3 @@
 dat/*.model
+dat/webpage_images/*
+dat/webpage_images_clean/*

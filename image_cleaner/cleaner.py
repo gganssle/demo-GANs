@@ -13,7 +13,7 @@ idx = 1
 names = glob.glob(''.join((indir, '*')))
 
 for name in names:
-	#print(name)
+	print(name)
 
 	pic = im.imread(name)
 	pic = np.asarray(pic)
@@ -30,6 +30,7 @@ for name in names:
 	idx += 1
 
 ################################################
+'''
 	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
 	idx += 1
 	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
@@ -74,4 +75,4 @@ for name in names:
 	idx += 1
 	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
 	idx += 1
-
+'''

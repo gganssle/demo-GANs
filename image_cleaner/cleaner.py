@@ -19,8 +19,8 @@ for name in names:
 	pic = np.asarray(pic)
 
 	# crop and rm alpha
-	#pic = pic[:298, :417, 0:3]
-	pic = pic[:64, :64, 0:3]
+	pic = pic[:298, :417, 0:3]
+	#pic = pic[:64, :64, 0:3]
 
 	# write
 	#im.imsave(''.join((outdir, str(idx), '.png')), pic)

@@ -4,3 +4,4 @@ dat/webpage_images_clean/*
 
 models/tensorflow-dcgan/samples/*
 models/tensorflow-dcgan/checkpoints/*
+models/tensorflow-dcgan/logs/*

@@ -20,7 +20,6 @@ for name in names:
 
 	# crop, rm alpha, and scale
 	pic = pic[:298, :417, 0:3]
-	#pic = pic[:64, :64, 0:3]
 	pic = scipy.misc.imresize(pic, 50) # arg is %
 
 	# write
@@ -31,25 +30,26 @@ for name in names:
 	idx += 1
 
 ################################################
+
+	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
+	idx += 1
+	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
+	idx += 1
+	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
+	idx += 1
+	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
+	idx += 1
+	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
+	idx += 1
+	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
+	idx += 1
+	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
+	idx += 1
+	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
+	idx += 1
+	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
+	idx += 1
 '''
-	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
-	idx += 1
-	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
-	idx += 1
-	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
-	idx += 1
-	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
-	idx += 1
-	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
-	idx += 1
-	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
-	idx += 1
-	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
-	idx += 1
-	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
-	idx += 1
-	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
-	idx += 1
 	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
 	idx += 1
 	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)

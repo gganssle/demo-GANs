@@ -1,3 +1,6 @@
 dat/*.model
 dat/webpage_images/*
 dat/webpage_images_clean/*
+
+models/tensorflow-dcgan/samples/*
+models/tensorflow-dcgan/checkpoints/*

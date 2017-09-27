@@ -18,9 +18,10 @@ for name in names:
 	pic = im.imread(name)
 	pic = np.asarray(pic)
 
-	# crop and rm alpha
+	# crop, rm alpha, and scale
 	pic = pic[:298, :417, 0:3]
 	#pic = pic[:64, :64, 0:3]
+	pic = scipy.misc.imresize(pic, 50) # arg is %
 
 	# write
 	#im.imsave(''.join((outdir, str(idx), '.png')), pic)

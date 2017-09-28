@@ -5,8 +5,8 @@ import numpy as np
 import glob
 import scipy.misc
 
-indir = '../dat/webpage_images/'
-outdir = '../dat/webpage_images_clean/'
+indir = '../dat/wi2/'
+outdir = '../dat/wi2_clean/'
 
 idx = 1
 
@@ -49,7 +49,7 @@ for name in names:
 	idx += 1
 	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
 	idx += 1
-'''
+
 	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
 	idx += 1
 	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
@@ -76,4 +76,4 @@ for name in names:
 	idx += 1
 	scipy.misc.imsave(''.join((outdir, str(idx), '.png')), pic)
 	idx += 1
-'''
+

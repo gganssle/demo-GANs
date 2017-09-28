@@ -1,7 +1,11 @@
 dat/*.model
 dat/webpage_images/*
 dat/webpage_images_clean/*
+dat/wi_select/*
+dat/wi_clean/*
+dat/wi2/*
+dat/wi2_clean/*
 
 models/tensorflow-dcgan/samples/*
-models/tensorflow-dcgan/checkpoints/*
+models/tensorflow-dcgan/checkpoint/*
 models/tensorflow-dcgan/logs/*

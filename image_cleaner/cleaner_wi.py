@@ -5,8 +5,8 @@ import numpy as np
 import glob
 import scipy.misc
 
-indir = '../dat/webpage_images/'
-outdir = '../dat/webpage_images_clean/'
+indir = '../dat/wi_select/'
+outdir = '../dat/wi_clean/'
 
 idx = 1
 
